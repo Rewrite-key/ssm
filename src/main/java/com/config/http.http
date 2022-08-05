@@ -1,0 +1,14 @@
+POST http://localhost:80/book
+Content-Type: application/json
+
+{
+  "name": "name",
+  "type": "type",
+  "description": "des,"
+}
+
+###
+GET http://localhost:80/book
+Accept: application/json
+
+###
